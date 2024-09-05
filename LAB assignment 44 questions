@@ -1,1 +1,13 @@
-This repo depicts lab assignment given for C language problems.
+//This repo depicts lab assignment given for C language problems.
+
+//1st program to calculate simple interest.
+#include <stdio.h>
+
+int main() {
+    float p, r, t,Z;
+    printf("Enter principal, rate, time: ");
+    scanf("%f %f %f", &p, &r, &t);
+    Z = (p * r * t) / 100;
+    printf("Simple Interest = %f\n", Z);
+    return 0;
+}
