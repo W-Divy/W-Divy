@@ -11,3 +11,18 @@ int main() {
     printf("Simple Interest = %f\n", Z);
     return 0;
 }
+
+
+//this program is to calculate total marks and percentage.
+
+#include<stdio.h>
+int main() {
+    float a,b,c,d,e,sum,percentage;
+    printf("Enter the marks of 5 subjects: ");
+    scanf("%f %f %f %f %f",&a,&b,&c,&d,&e);
+   sum=a+b+c+d+e;
+   printf("the total marks are %f\n",sum);
+   percentage=(sum/500)*100;
+   printf("the percentage is %f",percentage);
+    return 0;
+}
