@@ -1,4 +1,4 @@
-5//this repo depicts lab assignment given for C language problems.
+no5//this repo depicts lab assignment given for C language problems.
 
 //1st program to calculate simple interest.
 #include <stdio.h>
@@ -94,4 +94,18 @@ int main() {
     a=a-b;
     printf("the value is %d %d",a,b);
     return 0;
+}
+
+
+//7th program to calculate area of triangle 
+
+#include<stdio.h>
+int main()
+{
+int b,h,A;
+printf("enter the value of base and height\n");
+scanf("%d%d",&b,&h);
+A=0.5*b*h;
+printf("the area of the triangle is %d",A);
+return 0;
 }
