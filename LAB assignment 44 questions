@@ -1,4 +1,4 @@
-//This repo depicts lab assignment given for C language problems.
+\\this repo depicts lab assignment given for C language problems.
 
 //1st program to calculate simple interest.
 #include <stdio.h>
@@ -12,8 +12,7 @@ int main() {
     return 0;
 }
 
-
-//this program is to calculate total marks and percentage.
+\\2nd this program is to calculate total marks and percentage.
 
 #include<stdio.h>
 int main() {
@@ -25,4 +24,25 @@ int main() {
    percentage=(sum/500)*100;
    printf("the percentage is %f",percentage);
     return 0;
+}
+
+\\3rd program to create gross salary
+     #include <stdio.h> 
+    int main() {
+    float basic, gross,DA,HRA;
+
+    printf("Enter the basic salary: ");
+    scanf("%f", &basic);
+    printf("enter percentage of DA: ");
+    scanf("%f",&DA);
+    printf("enter percentage of HRA: ");
+    scanf("%f",&HRA);
+    
+    gross = basic + (basic * DA/100) + (basic * HRA/100);
+
+    // Display the gross salary
+    printf("Gross Salary = %f\n", gross);
+
+    return 0;
+ 
 }
