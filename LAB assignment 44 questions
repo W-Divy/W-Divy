@@ -1,4 +1,4 @@
-\\this repo depicts lab assignment given for C language problems.
+//this repo depicts lab assignment given for C language problems.
 
 //1st program to calculate simple interest.
 #include <stdio.h>
@@ -12,7 +12,7 @@ int main() {
     return 0;
 }
 
-\\2nd this program is to calculate total marks and percentage.
+//2nd this program is to calculate total marks and percentage.
 
 #include<stdio.h>
 int main() {
@@ -26,7 +26,7 @@ int main() {
     return 0;
 }
 
-\\3rd program to create gross salary
+//3rd program to create gross salary
      #include <stdio.h> 
     int main() {
     float basic, gross,DA,HRA;
